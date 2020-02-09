@@ -193,7 +193,7 @@ function subUser33(){
 		</div>
 	</div>
 	<div class="login-footer">
-		技术支持：这里是从数据库取的
+		技术支持：长沙金慧睿信息科技有限公司
 	</div>
 </div>
 
