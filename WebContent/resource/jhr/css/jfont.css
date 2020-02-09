@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "jFont";
+	src: url('../font/jfont.eot'); /* IE9*/
+	src: url('../font/jfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../font/jfont.woff') format('woff'), /* chrome、firefox */
+         url('../font/jfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url('../font/jfont.svg#jfont') format('svg'); /* iOS 4.1- */
+}
+.jfont {
+	display:inline-block;
+	font:normal normal normal 14px/1 jFont;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
+.jfont_01:before { content: "\f090"; }
+.jfont_02:before { content: "\f092"; }

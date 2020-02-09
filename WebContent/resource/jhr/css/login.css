@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+*{font-size:9pt;border:0;margin:0;padding:0;}
+body{ overflow-y: hidden;}
+ul{display:block;margin:0;padding:0;list-style:none;}
+li{display:block;margin:0;padding:0;list-style: none;}
+img{border:0;}
+span{margin:0;padding:0;display:block;}
+
+/*login*/
+
+.login-header { margin:0 auto; padding:10px 0; width:1200px; }
+
+.logo { *zoom:1;}
+.logo::after { content:""; display:block; height:0; clear:both; visibility:hidden;}
+
+.logo-icon { display:block; float:left; width:48px; height:50px; background:url(../images/logo-icon.png) 0 0 no-repeat;}
+
+.logo-txt { display:block; float:left; padding:0 15px 0 0;}
+.logo-txt-01 { display:block; height:24px; line-height:28px; font-size:18px; text-align:justify; color:#e60012}
+.logo-txt-02 { display:block; height:24px; line-height:24px; font-size:20px; text-align:justify; font-weight:bold; color:#006ab8}
+/*两端对齐hack*/
+.logo-txt-01:after { content: " "; display: inline-block; width: 100%;}
+.logo-txt-02:after { content: " "; display: inline-block; width: 100%;}
+
+.logo-txt-03 { display:block; height:50px; line-height:50px; font-size:16px; font-weight:bold; color:#ffde89}
+
+
+.login-main { background: url(../images/login-bg-01.jpg) repeat-x left top; }
+.login-bd  { position:relative; margin:0 auto; width:1200px; height:436px; }
+
+.login-bg { position: absolute; top:20px; right:0; width:400px; height:396px; background:#fff;}
+.login { position:relative; margin:0 auto; width:360px;}
+
+.login-title { padding:30px 0 0 0; text-align:left; font-size:16px; font-weight:bold; color:#333;}
+.login ul {margin:30px 0 0 0;}
+.login ul li{margin-bottom:20px;}
+
+.errorMessage{color:#ff0000; position:absolute;top:50px; right:0;}
+
+.loginuser input{width:299px; height:48px;background:url(../images/ipt_icon.png) no-repeat; background-position: 10px 3px; line-height:48px; padding-left:44px; font-size:14px; /* font-weight:bold; */}
+.loginpwd input{width:299px; height:48px;background:url(../images/ipt_icon.png) no-repeat; background-position: 10px -46px; line-height:48px; padding-left:44px; font-size:14px; color:#90a2bc;}
+
+.loginbtn{width:100%;height:45px; background:#005cb8; font-size:18px;font-family:'微软雅黑'; color:#fff;cursor:pointer; line-height:35px; border-radius:3px; webkit-border-radius:3px; moz-border-radius:3px; margin-top:10px; cursor:pointer;}
+.loginbtn:hover{background:#004080;}
+
+.iptBg{border:1px solid #005cb8; background-color:#fff;border-radius:3px; webkit-border-radius:3px; moz-border-radius:3px; overflow:hidden;}
+
+.login-footer { margin:0 auto; padding:20px 0 0 0; width:1200px; height:30px; font-size:14px; text-align:center; color:#999;}

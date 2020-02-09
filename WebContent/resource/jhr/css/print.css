@@ -1,0 +1,92 @@
+*{ margin:0; padding:0;}
+html,body { height:100%}
+.pageBar { margin:0 0 20px 0; padding:10px 0; border-bottom:1px solid #a3c0cc; background:#e6f4fa; text-align:center}
+
+.pageBar:after{ content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+.pageBar{ zoom:1;}
+
+.wordprint.pageBar { margin:0 0 0 0; padding:5px;}
+
+.wordprint.pageBar .pageBar-item { float:left; display:inline-block; *display:inline; padding:0 0 0 5px; font-size:12px;}
+
+.pageBar input { padding:0 5px; height:24px; border:1px solid #999; line-height:24px;}
+.pageBar input[type="button"] { padding:0 10px; height:26px; border:1px solid #009bdb; background:#009bdb; color:#fff; cursor:pointer;}
+.pageBar input[type="button"]:hover { background:#4bcaff;}
+
+.pageBar .select-box { display:block; padding:2px; height:24px; line-height:30px; border: solid 1px #999; background-color:#fff; font-size:14px;}
+.pageBar .select-box select { width:100%; height:24px; line-height:24px; border:1px solid #fff; background:#fff;}
+
+.pageBar .pageBar-item-fg { display:inline-block; *display:inline; width:1px; height:30px; background:#bbb;}
+
+.pageBar.print-word-box { margin:0;}
+
+.PageNext{page-break-after: always;}
+.barcodebg { margin:0 auto; width:10cm; height:6cm; border:1px dashed #000;}
+.barcodebox { margin:8mm auto 0 auto; width:8cm; height:4cm;}
+.barcodeTitle { margin:0 auto; padding:2mm; line-height:1.5em; border:1px solid #000; text-align:center; font-size:12pt}
+.barcodeCon { padding:2mm 0; border:1px solid #000; border-top:0;}
+.barcodeInfo { padding:1mm; border:1px solid #000; border-top:0; font-size:10pt}
+.barcodeImg { margin:0 auto; text-align:right; }
+.barcodeTxt { margin:0 auto; text-align:right; font-size:10pt}
+.barcodeBar { margin:0 auto; height:1cm; line-height:1cm; border:1px solid #000; border-top:0; text-align:center; font-size:12pt}
+.barcodeBar .item-a { float:left; padding:0 2mm; height:1cm; line-height:1cm; border-right:1px solid #000;}
+.barcodeBar .item-b { float:left; padding:0 2mm;}
+
+.barcodebox2 { margin:4mm auto 0 auto; width:8cm; height:4cm;}
+.barcodebox2 .barcodeTitle { font-size:10pt}
+.page-hd { padding:1cm 0 0 0;}
+
+.table-print { margin:0 auto; table-layout:fixed}
+.table-print td { padding:2mm 1mm; vertical-align:top; font-size:11pt;}
+.table-print td.td-dt { text-align:center}
+
+.table-print td.page-left { vertical-align:middle; text-align:left;font-size:12pt;}
+.table-print td.page-title { vertical-align:middle; text-align:center; font-size:18pt; font-weight:bold;}
+
+.table-print .barcodeImg { }
+.table-print .barcodeImg { *zoom:1;}
+.table-print .barcodeImg::after { content:""; display:block; height:0; clear:both; visibility:hidden;}
+.table-print .barcodeImg .barcodeImgContent { float:right;}
+.table-print .barcodeTxt { padding:0 10px 0 0}
+
+.table-print2 td { vertical-align:middle; font-size:10pt}
+.table-print2 td.jhr-td { padding:1mm;  font-size:10pt}
+.table-print2 td.jhr-tdimg { padding:1mm 0 1mm 0;  font-size:10pt}
+.table-print2 td.jhr-td1 { padding:1mm 0 1mm 0;  font-size:10pt;height:12mm}
+	
+.table-big { width:18cm}
+
+.table-big-xl { width:26cm}
+.table-big-xl2 { width:266mm}
+
+.table-border { border-top:1px solid #000; border-left:1px solid #000;}
+.table-border td { border-bottom:1px solid #000; border-right:1px solid #000;}
+
+.page-qrs-box { margin:0 auto; padding:4cm 0 0 0; width:166mm;}
+
+.page-qrs-box .page-title { text-align:center; font-size:24pt; font-weight:900;}
+
+.page-qrs-box .p-c00 { font-size:14pt; line-height:2em;}
+
+.page-qrs-box .p-c01 { padding:15mm 0 0 0; font-weight:900; text-indent:2em;}
+
+.page-qrs-box .p-c02 { padding:15mm 0 0 0;}
+
+.page-qrs-box .p-c03 { text-indent:2em;}
+.page-qrs-box .p-c04 { padding:20mm 0 0 0; text-indent:2em;}
+
+.page-qrs-box .p-c05 { padding:20mm 0 0 0; line-height:1.2em}
+
+.page-qrs-box .p-c06 { padding:20mm 0 0 0; text-align:right}
+
+.page-qrs-box .txt-underline { text-decoration:underline}
+
+
+
+
+
+
+@media print {
+	.Noprint{ display:none;}
+	.barcodebg { margin:0 auto; width:10cm; height:6cm; border-width:1px; border-color:transparent; border-style:dashed}
+}

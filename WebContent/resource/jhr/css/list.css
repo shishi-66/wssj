@@ -1,0 +1,72 @@
+.list {}
+.list_search {
+	padding:0 10px 5px 10px;
+	border-bottom:1px solid #cad8e5;
+	background:#e5f2ff;
+}
+.list_search__row {
+	padding:5px 0 0 0;
+}
+.list_tools {
+	padding: 5px 10px 0 10px;
+}
+
+.list_content {
+	padding: 5px 10px 0 10px;
+}
+.list_page {
+	padding: 5px 10px 10px 10px;
+}
+
+
+.tabs-content .list_search {
+	padding:0 0 5px 0;
+	border-bottom:1px solid #cad8e5;
+	background:none;
+}
+.tabs-content .list_search__row {
+	padding:5px 0 0 0;
+}
+.tabs-content .list_tools {
+	padding: 5px 0 0 0;
+}
+
+.tabs-content .list_content {
+	padding: 5px 0 0 0;
+}
+.tabs-content .list_page {
+	padding: 5px 0 10px 0;
+}
+
+.list--condensed {}
+.list--condensed .list_tools {
+	padding: 5px 0 0 0;
+}
+.list--condensed .list_content {
+	padding: 5px 0 0 0;
+}
+.list--condensed .list_page {
+	padding: 5px 0 10px 0;
+}
+
+
+
+.list--dialog .list_content {
+	padding: 10px;
+}
+
+.page { 
+	position:relative;
+}
+.page .page__tools { 
+	position:absolute; top:0; right:0;
+	padding:0;
+	font-size:12px; line-height:26px;
+}
+.page .page__total {
+	font-size:12px; line-height:26px;
+}
+.page .page__cur {
+	font-weight:bold; color:#ff7a37;
+}
+
